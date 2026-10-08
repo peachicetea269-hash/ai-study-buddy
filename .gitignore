@@ -1,0 +1,27 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+backend/.env
+
+# Python
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
